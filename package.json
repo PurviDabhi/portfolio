@@ -1,7 +1,8 @@
 {
-  "homepage": "http://PurviDabhi.github.io/portfolio",
+  "homepage": "https://PurviDabhi.github.io/portfolio/",
   "name": "portfolio",
   "version": "0.0.0",
+  "private":true,
   "type": "module",
   "scripts": {
     "dev": "vite",
