@@ -1,10 +1,13 @@
+import Navbar from "./Navbar";
 
 
 
 export default function Home() {
     return (
         <>
+        <Navbar />
             <div className="flex justify-center items-center bg-blue-50 md:px-16 px-4 h-screen">
+
                 <div className=" flex flex-col gap-2 justify-center text-center">
                     <h1 className="text-xl md:text-3xl">Hello,</h1>
                     <h1 className="text-4xl md:text-6xl font-bold">I&apos;m Purvi Dabhi</h1>

@@ -9,7 +9,7 @@ export default function Navbar() {
 
     return (
         <>
-            <div className="flex justify-between py-4 md:px-9 px-1  w-full sticky z-20 top-0 bg-white border-b-2 border-blue-500 shadow-lg">
+            <div className="flex justify-between py-4 md:px-9 px-1  w-full fixed z-20 top-0 bg-white border-b-2 border-blue-500 shadow-lg">
                 <h2 className="text-3xl font-semibold text-blue-500">Purvi Dabhi</h2>
                 
 

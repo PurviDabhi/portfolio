@@ -15,7 +15,7 @@ export default function Contact() {
 
                 
                 
-                <div className="flex items-center justify-center mt-9 gap-8" >
+                <div className="flex items-center justify-center mt-9 md:gap-8 gap-5" >
                     <a href="https://www.linkedin.com/in/purvi-dabhi-792590280/"><FaLinkedin size={40} className="hover:scale-95 duration-300" /></a>
                     <a href="https://github.com/PurviDabhi"><FaGithub size={40} className="hover:scale-95 duration-300"/></a>
                     <a href="https://twitter.com/PurviDabhi54322"><RiTwitterXLine size={40} className="hover:scale-95 duration-300"/></a>
@@ -24,8 +24,9 @@ export default function Contact() {
                 </div>   
 
 
-                <div className="bg-blue-500 mt-6 ">
-                    <p className="flex justify-center py-3 text-white text-lg">Created by PurviDabhi |©2023 All Right Reserved  </p>
+                <div className="bg-blue-500 mt-6 py-1">
+                    <p className="flex justify-center  text-white text-center text-lg">Created by PurviDabhi </p>
+                    <h3 className=" text-white text-center text-sm">©2023 All Right Reserved</h3>
                 </div>
 
                 
