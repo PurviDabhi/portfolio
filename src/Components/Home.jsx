@@ -13,7 +13,7 @@ export default function Home() {
                     <h1 className="text-4xl md:text-6xl font-bold">I&apos;m Purvi Dabhi</h1>
                     <h1 className="text-xl md:text-4xl font-medium text-blue-500">Front-End Developer</h1>
                     <h1 className="text-2xl">From India</h1>
-                    <button className="rounded-lg w-32 py-3 text-white text-xl bg-blue-600 mx-auto hover:scale-95 duration-300">Hire Me</button>
+                    <a href="https://www.linkedin.com/in/purvi-dabhi-792590280/" className="rounded-lg w-32 py-2 px-2 text-white text-lg bg-blue-600 mx-auto hover:scale-95 duration-300">Contact Me</a>
                 </div>
                 
             </div>  

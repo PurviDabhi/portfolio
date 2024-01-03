@@ -35,14 +35,18 @@ export default function Project() {
                             </div>
                         </a>
 
-                        <div className="border rounded-xl shadow-md shadow-slate-300 flex flex-col gap-3 items-center justify-center px-3 py-2 hover:bg-blue-500 hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-95  " data-aos="fade-up">
-                            <div className="rounded-full text-white px-3 py-3 bg-blue-500">
-                                <RiMovie2Fill size={30} />
+                        <a href="https://moviefinder-delta.vercel.app/">
+                            <div className="border rounded-xl shadow-md shadow-slate-300 flex flex-col gap-3 items-center justify-center px-3 py-2 hover:bg-blue-500 hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-95  " data-aos="fade-up">
+                                <div className="rounded-full text-white px-3 py-3 bg-blue-500">
+                                    <RiMovie2Fill size={30} />
+                                </div>
+                                <h1 className="text-3xl font-semibold ">Cinema Spotter</h1>
+                                <p className="text-sm">The Movie Finder App serves as a comprehensive platform for users to discover information about movies, including details such as plot summaries, cast, ratings, release dates, and more. It leverages modern web technologies to deliver an intuitive and interactive interface for movie enthusiasts and casual users alike.</p>
                             </div>
-                            <h1 className="text-3xl font-semibold ">Cinema Spotter</h1>
-                            <p className="text-sm">The Movie Finder App serves as a comprehensive platform for users to discover information about movies, including details such as plot summaries, cast, ratings, release dates, and more. It leverages modern web technologies to deliver an intuitive and interactive interface for movie enthusiasts and casual users alike.</p>
-                        </div>
+                        </a>
                     </div>
+
+                    
                     <div className="grid md:grid-cols-3 gap-4 px-4 grid-cols-1 md:mt-6 mt-3 md:mb-5">
                         <a href="https://purvidabhi.github.io/quotegenerator/">
                             <div className="border rounded-xl shadow-md shadow-slate-300 flex flex-col gap-3 items-center justify-center px-3 py-2 hover:bg-blue-500 hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-95  " data-aos="fade-up">
@@ -53,7 +57,7 @@ export default function Project() {
                                 <p className="text-sm ">A quote generator is a software tool or application designed to display random or curated quotations to users. It serves as a source of inspiration, motivation, reflection, or entertainment by presenting diverse quotes from various categories, including literature, famous personalities, movies, or speeches</p>
                             </div>
                         </a>
-                        
+
                         <div className="border rounded-xl shadow-md shadow-slate-300 flex flex-col gap-3 items-center justify-center px-3 py-2 hover:bg-blue-500 hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-95  " data-aos="fade-up">
                             <div className="rounded-full text-white px-3 py-3 bg-blue-500">
                                 <LuListTodo size={30} />
