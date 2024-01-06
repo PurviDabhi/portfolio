@@ -1,26 +1,46 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon"  href="/portfolio/assets/bitmoji_1-III_k76Z.png"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Purvi Dabhi</title>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-    </style>
-      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script type="module" crossorigin src="/portfolio/assets/index-dEUn6QeQ.js"></script>
-    <link rel="stylesheet" crossorigin href="/portfolio/assets/index-dNrRg27m.css">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        offset:135,
-        delay: 30,
-        duration :750
-      });
-    </script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/portfolio/assets/bitmoji_title_image-cTEKAl4q.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Purvi Dabhi</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script type="module" crossorigin src="/portfolio/assets/index-TFN9NDCI.js"></script>
+  <link rel="stylesheet" crossorigin href="/portfolio/assets/index-Rlphttzo.css">
+</head>
+
+<body>
+  <div id="root"></div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 135,
+      delay: 30,
+      duration: 750
+    });
+  </script>
+  <script>
+    document.addEventListener('contextmenu', (event) => {alert("You can't inspect the code 😁"); return  event.preventDefault()});
+    document.onkeydown = function (e) {
+      if (event.keyCode == 123) {
+        return alert("You can't inspect the code 😁");
+      }
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+        return alert("You can't inspect the code 😁");
+      }
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+        return alert("You can't inspect the code 😁");
+      }
+      if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+        return alert("You can't get page Source 😁");
+      }
+    } 
+  </script>
+</body>
+
 </html>
