@@ -11,11 +11,14 @@ function App() {
 
   return (
     <>
-      <Home />
-      <About />
-      <Skills />
-      <Project />
-      <Contact />
+      <div className='select-none'>
+
+        <Home />
+        <About />
+        <Skills />
+        <Project />
+        <Contact />
+      </div>
     </>
   )
 }
