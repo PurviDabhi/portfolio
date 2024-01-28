@@ -25,8 +25,7 @@ export default function Contact() {
 
 
                 <div className="bg-blue-500 mt-6 py-1">
-                    <p className="flex justify-center  text-white text-center text-lg">Created by PurviDabhi </p>
-                    <h3 className=" text-white text-center text-sm">©2023 All Right Reserved</h3>
+                    <p className="flex justify-center  text-white text-center text-[10px] md:text-lg">Created by PurviDabhi ©2023 All Right Reserved</p>
                 </div>
 
                 

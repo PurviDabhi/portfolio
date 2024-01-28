@@ -58,7 +58,7 @@ export default function Project() {
                             </div>
                         </a>
 
-                        <div className="border rounded-xl shadow-md shadow-slate-300 flex flex-col gap-3 items-center justify-center px-3 py-2 hover:bg-blue-500 hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-95  " data-aos="fade-up">
+                        <div className="border rounded-xl shadow-md shadow-slate-300 flex flex-col gap-3 items-center justify-center px-3 py-2 hover:bg-blue-500 hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-95  " data-aos="fade-up" >
                             <div className="rounded-full text-white px-3 py-3 bg-blue-500">
                                 <LuListTodo size={30} />
                             </div>
