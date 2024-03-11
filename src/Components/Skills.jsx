@@ -14,7 +14,7 @@ export default function Skills() {
                     <SkillCard image={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"} title={"JavaScript"} />
                     <SkillCard image={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"} title={"React"} />
                     <SkillCard image={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"} title={"BootStrap"} />
-                    <SkillCard image={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"} title={"Tailwind CSS"} />
+                    <SkillCard image={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"} title={"Tailwind CSS"} />
                     <SkillCard image={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"} title={"JAVA"} />
                     <SkillCard image={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"} title={"Python"} />
                     <SkillCard image={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"} title={"MYSQL"} />
